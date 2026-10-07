@@ -23,8 +23,8 @@ export const personalInfo = {
     "System Design"
   ],
   socialLinks: {
-    github: "https://github.com/Abiraj-k", // Editable placeholder
-    linkedin: "https://linkedin.com/in/abiraj-k", // Editable placeholder
+    github: "https://github.com/ABIRAJKUMAR",
+    linkedin: "https://linkedin.com/in/abiraj-k",
     email: "abiraj.official@example.com",
     location: "Tamil Nadu, India"
   },
