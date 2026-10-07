@@ -1,0 +1,17 @@
+{
+  "name": "abiraj-portfolio-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack Developer Portfolio for Abiraj K (React + Vite + Tailwind + Express + Supabase)",
+  "scripts": {
+    "dev": "node -e \"const { spawn } = require('child_process'); spawn('npm', ['run', 'dev'], { cwd: './server', stdio: 'inherit', shell: true }); spawn('npm', ['run', 'dev'], { cwd: './client', stdio: 'inherit', shell: true });\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "install:all": "npm install --prefix client && npm install --prefix server"
+  },
+  "keywords": ["portfolio", "software-engineer", "react", "express", "supabase"],
+  "author": "Abiraj K",
+  "license": "MIT"
+}
